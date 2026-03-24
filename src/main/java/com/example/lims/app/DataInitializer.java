@@ -1,7 +1,6 @@
 package com.example.lims.app;
 
-import com.example.lims.entity.*;
-import com.example.lims.serviceimpl.*;
+import com.example.lims.persistence.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

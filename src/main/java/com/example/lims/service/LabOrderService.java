@@ -1,6 +1,6 @@
 package com.example.lims.service;
 
-import com.example.lims.entity.OrderStatus;
+import com.example.lims.persistence.OrderStatus;
 import com.example.lims.service.dto.LabOrderDto;
 import java.util.List;
 import java.util.Optional;

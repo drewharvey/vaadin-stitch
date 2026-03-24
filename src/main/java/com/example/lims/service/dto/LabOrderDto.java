@@ -1,6 +1,6 @@
 package com.example.lims.service.dto;
 
-import com.example.lims.entity.OrderStatus;
+import com.example.lims.persistence.OrderStatus;
 import java.time.LocalDateTime;
 
 public class LabOrderDto {

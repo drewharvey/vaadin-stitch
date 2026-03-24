@@ -1,6 +1,5 @@
-package com.example.lims.serviceimpl;
+package com.example.lims.persistence;
 
-import com.example.lims.entity.LabOrder;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
