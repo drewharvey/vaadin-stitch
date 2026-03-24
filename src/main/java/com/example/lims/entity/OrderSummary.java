@@ -1,0 +1,14 @@
+package com.example.lims.entity;
+
+import java.time.LocalDateTime;
+
+public interface OrderSummary {
+    Long getId();
+    String getPatientFirstName();
+    String getPatientLastName();
+    String getLabTestName();
+    String getLabTestCode();
+    LocalDateTime getOrderedAt();
+    OrderStatus getStatus();
+    String getNotes();
+}

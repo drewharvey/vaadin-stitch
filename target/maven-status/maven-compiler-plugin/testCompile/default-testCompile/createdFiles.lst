@@ -1,0 +1,4 @@
+com/example/lims/app/views/LabTestsViewTest.class
+com/example/lims/app/views/OrdersViewTest.class
+com/example/lims/app/views/PatientsViewTest.class
+com/example/lims/app/playwright/PlaywrightIT.class
