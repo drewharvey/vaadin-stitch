@@ -1,7 +1,7 @@
 package com.example.lims.app.views;
 
 import com.example.lims.app.Application;
-import com.example.lims.persistence.OrderStatus;
+import com.example.lims.persistence.entity.OrderStatus;
 import com.example.lims.service.LabOrderService;
 import com.example.lims.service.LabTestService;
 import com.example.lims.service.PatientService;

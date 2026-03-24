@@ -1,5 +1,6 @@
-package com.example.lims.persistence;
+package com.example.lims.persistence.projection;
 
+import com.example.lims.persistence.entity.OrderStatus;
 import java.time.LocalDateTime;
 
 public interface OrderSummary {

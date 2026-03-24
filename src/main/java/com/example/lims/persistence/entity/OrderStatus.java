@@ -1,4 +1,4 @@
-package com.example.lims.persistence;
+package com.example.lims.persistence.entity;
 
 public enum OrderStatus {
     PENDING,

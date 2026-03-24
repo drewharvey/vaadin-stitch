@@ -1,7 +1,7 @@
 package com.example.lims.serviceimpl;
 
-import com.example.lims.persistence.LabTest;
-import com.example.lims.persistence.LabTestRepository;
+import com.example.lims.persistence.entity.LabTest;
+import com.example.lims.persistence.repository.LabTestRepository;
 import com.example.lims.service.LabTestService;
 import com.example.lims.service.dto.LabTestDto;
 import org.springframework.stereotype.Service;
