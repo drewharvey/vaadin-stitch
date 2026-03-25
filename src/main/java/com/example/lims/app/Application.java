@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication(scanBasePackages = "com.example.lims")
-@EnableJpaRepositories(basePackages = "com.example.lims.serviceimpl")
-@EntityScan(basePackages = "com.example.lims.entity")
+@EnableJpaRepositories(basePackages = "com.example.lims.persistence.repository")
+@EntityScan(basePackages = "com.example.lims.persistence.entity")
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);

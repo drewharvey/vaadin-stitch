@@ -1,7 +1,10 @@
 package com.example.lims.serviceimpl;
 
-import com.example.lims.entity.LabOrder;
-import com.example.lims.entity.OrderStatus;
+import com.example.lims.persistence.entity.LabOrder;
+import com.example.lims.persistence.entity.OrderStatus;
+import com.example.lims.persistence.repository.LabOrderRepository;
+import com.example.lims.persistence.repository.PatientRepository;
+import com.example.lims.persistence.repository.LabTestRepository;
 import com.example.lims.service.LabOrderService;
 import com.example.lims.service.dto.LabOrderDto;
 import org.springframework.stereotype.Service;

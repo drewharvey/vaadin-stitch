@@ -1,4 +1,4 @@
-package com.example.lims.entity;
+package com.example.lims.persistence.entity;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

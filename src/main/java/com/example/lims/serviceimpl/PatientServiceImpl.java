@@ -1,6 +1,7 @@
 package com.example.lims.serviceimpl;
 
-import com.example.lims.entity.Patient;
+import com.example.lims.persistence.entity.Patient;
+import com.example.lims.persistence.repository.PatientRepository;
 import com.example.lims.service.PatientService;
 import com.example.lims.service.dto.PatientDto;
 import org.springframework.stereotype.Service;
